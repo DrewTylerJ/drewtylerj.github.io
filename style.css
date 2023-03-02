@@ -1,7 +1,13 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpeg');
+    background: url('./images/devphoto.jpg');
+    background-size:cover;
+    position:relative;
+}
+.bgimage2 {
+    height:100vh;
+    background: url('./images/mainmenu.jpg');
     background-size:cover;
     position:relative;
 }
@@ -80,3 +86,6 @@
 .iframe {
     display:block;
 }
+
+.navbar a { color: lightgray; }
+.navbar a:hover { color: grey; }
